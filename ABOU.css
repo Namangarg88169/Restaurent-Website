@@ -1,0 +1,25 @@
+body {
+  background-image: url("depositphotos_313535218-stock-photo-praying-hands-faith-religion-belief.jpg");
+  background-size: cover;
+  opacity: 0.3;
+}
+
+.ABOUT h1 {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  font-family: "Big Shoulders Text", cursive;
+  font-size: 2.2em;
+  text-transform: uppercase;
+  color: rosybrown;
+}
+
+.ABOUT p {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  font-family: "Big Shoulders Text", cursive;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  color: white;
+}

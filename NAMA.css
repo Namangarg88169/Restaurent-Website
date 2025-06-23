@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css?family=Big+Shoulders+Text:100,300,400,500,600,700,800,900&display=swap");
+
+/* font-family: 'Big Shoulders Text', cursive; */
+
+.nav-flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: absolute;
+  z-index: 100;
+  left: 0;
+  width: 100%;
+  padding: 0;
+}
+
+.nav-flex-row li a {
+  text-decoration: none;
+  list-style-type: none;
+  padding: 20px 15px;
+}
+
+.nav-flex-row li a {
+  font-family: "Big Shoulders Text", cursive;
+  color: white;
+  font-size: 4em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.section-intro {
+  height: 600px;
+  background-image: url("alexander-kovacs-kufY1HyGEO8-unsplash.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-intro h1 {
+  text-align: center;
+  color: WHITE;
+  font-size: 6em;
+  font-weight: 700;
+  position: relative;
+  top: 0px;
+}
+
+.section-intro header {
+  height: 300px;
+  display: flex;
+  flex: 4;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-to-book-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.link-to-book {
+  color: white;
+  font-size: 4em;
+  display: block;
+  border: 2px solid #ffffff;
+  padding: 5px 10px;
+  position: absolute;
+  top: 400px;
+}
+
+a.link-to-book:hover {
+  background-color: #ffffff;
+  color: #95999e;
+  text-decoration: none;
+}
+
+.about-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("360_F_167770103_jxturRuhpCmX2R1UAitzKnAhZ9xZ8Xgi.jpg");
+  background-size: cover;
+  padding: 50px 30px;
+  top: 600px;
+}
+
+.about-section p,
+.about-section h3 {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  font-family: "Times New Roman";
+  font-size: 1.8em;
+  color: wheat;
+  font-weight: 270;
+  text-transform: uppercase;
+}
+
+.carousel-inner {
+  height: 800px;
+}
+
+.row-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column-form {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 30px 20px;
+}
+
+.btn.btn-primary {
+  font-family: "Big Shoulders Text", cursive;
+  color: #ffffff;
+  background-color: #95999e;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding: 5px 10px;
+  letter-spacing: 2px;
+  border: 0;
+}
+
+.btn.btn-primary:hover {
+  background-color: #747474;
+}
+
+.opening-time,
+.contact-adress {
+  flex: 1;
+  margin: 30px 20px;
+  font-size: 1.2em;
+}
+
+.form-group p {
+  font-size: 1.2em;
+}
+
+.opening-time p span,
+.contact-adress p span {
+  display: block;
+}
